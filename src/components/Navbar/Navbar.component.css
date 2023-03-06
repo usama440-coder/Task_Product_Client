@@ -1,0 +1,41 @@
+.navbarContainer {
+    background-color: var(--primary-color);
+    /* padding: 30px 10px; */
+}
+
+.logo {
+    font-size: 20px;
+    color: white;
+}
+
+.navbarWrapper {
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid red; */
+    margin: auto;
+}
+
+.navlink {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.navBtn {
+    background: transparent;
+    color: white;
+    border: none;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.signOutIcon {
+    color: white;
+    font-size: 15px;
+}
